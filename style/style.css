@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(24, 36, 45, 0.5));
+}
+.imagem {
+    height: 550px;
+    width: 550px;
+    margin: 10px; 
+    background-image: url("https://mms.img.susercontent.com/br-11134216-7r98o-lm6lfrrr4mwmcc"); 
+    background-position: center; 
+    background-size: cover;
+}
+.login{
+    height: 550px;
+    width: 550px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);  
+}
+
+.imagem1 {
+    height: 100px;
+    width: 400px;
+    margin: 10px; 
+    background-image: url("https://iemi.com.br/wp-content/uploads/2022/08/gazin.png"); 
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
