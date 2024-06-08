@@ -5,33 +5,20 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #6e8efb, #a777e3);
     font-family: 'Poppins', sans-serif;
-    margin: 0;
 }
 
 .login-box {
     background: #fff;
-    padding: 30px; /* Reduzido de 40px para 30px */
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
 }
 
-.login-box .logo {
-    display: block;
-    margin-left: 0; /* Ajusta a logo para a esquerda */
-    width: 100%;
-    max-width: 300px; /* Reduzido de 350px para 300px */
-    height: auto;
-}
-
 .login-box h2 {
-    margin-bottom: 15px; /* Reduzido de 20px para 15px */
+    margin-bottom: 20px;
     text-align: center;
-}
-
-.mb-2 {
-    margin-bottom: 10px; /* Reduzido de 3 a 2 para 10px */
 }
 
 .form-group .input-group-text {
@@ -42,7 +29,7 @@ body {
 .form-control {
     background: #f7f7f7;
     border: none;
-    padding: 8px 15px; /* Reduzido de 10px 20px para 8px 15px */
+    padding: 10px 20px;
 }
 
 .form-control:focus {
@@ -61,7 +48,7 @@ body {
 
 .register-link {
     text-align: center;
-    margin-top: 15px; /* Reduzido de 20px para 15px */
+    margin-top: 20px;
 }
 
 .register-link a {
@@ -71,4 +58,8 @@ body {
 
 .register-link a:hover {
     text-decoration: underline;
+}
+.logo {
+    display: flex;
+    width: 350px;
 }

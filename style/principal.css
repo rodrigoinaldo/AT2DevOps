@@ -1,37 +1,42 @@
 .card {
-    transition: transform 0.3s ease-in-out;
-    position: relative;
-  }
-
-  .card:hover {
-    transform: scale(1.1);
-    z-index: 1;
-  }
-
-  .card-img-top {
-    height: 400px; /* Altura maior para a imagem */
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .card-body {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    color: white;
-    width: 100%;
-  }
-  .search-bar {
-    width: 80%;
-    max-width: 300px;
-    
+  transition: transform 0.3s ease-in-out;
+  position: relative;
 }
+
+.card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.card-img-top {
+  height: 400px; /* Altura maior para a imagem */
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: white;
+  width: 100%;
+}
+.search-bar {
+  width: 80%;
+  max-width: 300px;
   
-  @media (max-width: 768px) {
-    .search-bar {
-      width: 80%; /* Ajuste o tamanho conforme necessário para telas menores */
-    }
+}
+
+@media (max-width: 768px) {
+  .search-bar {
+    width: 80%; /* Ajuste o tamanho conforme necessário para telas menores */
   }
-  
+}
+
+.carousel-container {
+  border: 2px solid #add8e6; /* Azul claro */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+}
